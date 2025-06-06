@@ -10,7 +10,7 @@ class Person1 {
 }
 public class task17 {
     public static void main(String[] args) {
-        Person myObj = new Person();
+        Person1 myObj = new Person1();
         myObj.setName("John");
         System.out.println(myObj.getName());
     }
