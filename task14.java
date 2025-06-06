@@ -8,7 +8,7 @@ public class task14 {
         System.out.println(names[0]);
 
         names[1] = "Reena";
-        System.out.println(names[1]); 
+        System.out.println(names[1]);
 
         System.out.println(names.length);
 
