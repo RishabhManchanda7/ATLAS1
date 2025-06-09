@@ -2,19 +2,19 @@ public class Abstract {
 
     public static void main(String[] args) {
         /* Cannot create object of abstract class directly */
-        Employee e = new SalaryEmployee("George W.", "Houston, TX", 43, 4500.00);
+        employee e = new SalaryEmployee("George W.", "Houston, TX", 43, 4500.00);
         System.out.println("\nCall mailCheck using Employee reference--");
         e.mailCheck();
     }
 }
 
 // Abstract class
-abstract class Employee {
+abstract class employee {
     private String name;
     private String address;
     private int number;
 
-    public Employee(String name, String address, int number) {
+    public employee(String name, String address, int number) {
         System.out.println("Constructing an Employee");
         this.name = name;
         this.address = address;
@@ -50,7 +50,7 @@ abstract class Employee {
 }
 
 // Concrete subclass
-class SalaryEmployee extends Employee {
+class SalaryEmployee extends employee {
     private double salary;
 
     public SalaryEmployee(String name, String address, int number, double salary) {
