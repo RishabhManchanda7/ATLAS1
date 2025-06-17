@@ -1,7 +1,9 @@
+package src;
+
 import java.util.Scanner;
 
 public class Functions {
-//    public static void printMyName (String name) {
+  //  public static void printMyName (String name) {
 //        System.out.println(name);
 //        return;
 //    }
@@ -14,20 +16,20 @@ public class Functions {
 
 
 
-//    public static int calculateProduct(int a, int b) {
-//        int sum = a * b;  // sum and multiplication
-//        return sum;
-//    }
-//
-//    public static void main(String[] args) {
-//        Scanner scn = new Scanner(System.in);
-//        int a = scn.nextInt();
-//        int b = scn.nextInt();
-//
-//        int sum1 = calculateProduct(a, b);
-//        System.out.println(sum1);
-//    }
-//}
+    public static int calculateProduct(int a, int b) {
+        int sum = a * b;  // sum and multiplication
+        return sum;
+    }
+
+    public static void main(String[] args) {
+        Scanner scn = new Scanner(System.in);
+        int a = scn.nextInt();
+        int b = scn.nextInt();
+
+        int sum = calculateProduct(a, b);
+        System.out.println(sum);
+    }
+}
 //    public static int printFactorial(int n){
 //            int factorial= 1;
 //            for (int i=n; i>=1; i--){
@@ -46,7 +48,7 @@ public class Functions {
 //        System.out.println(b);
 //    }
 //}
-
+//
 //        public static int primeNo (int n){
 //            boolean primeNo = true;
 //
@@ -76,14 +78,14 @@ public class Functions {
 //            int a = primeNo(n);
 //
 //            System.out.println(a);
-
-    public static void main(String[] args) {
-        String [] cars = {"BMW","Honda","Skoda", "Audi"};
-
-        cars[0] = "Opel";
-
-
-            System.out.println(cars[1]);
-
-    }
-}
+//
+//    public static void main(String[] args) {
+//        String [] cars = {"BMW","Honda","Skoda", "Audi"};
+//
+//        cars[0] = "Opel";
+//
+//
+//            System.out.println(cars[1]);
+//
+//    }
+//}
